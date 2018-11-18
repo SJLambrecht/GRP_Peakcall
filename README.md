@@ -18,8 +18,13 @@ The script will run now, but
 - if you need to you can assign a frame to your peaks (#16).
 
 #7-#14 are multiple parameters that can be changed in case the results are not as you like them:
+
 #7 is the base range over which is averaged to detect an increase in coverage. It might be good to increase the base range for low coverage data sets or if peaks are increasing only slowly.
+
 #8, #9 is the threshold that has to be passed by the quotient between the two ranges defined by #7
+
 #10, #11 if a start/end is found #10/#11 give the range for which the algorithm tests if there is a greater fold change between the two ranges defined by #7 close by.
+
 #12, #13 defines the space between the two by #7 defined ranges while detecting starts (#12) or ends (#13). It might be good to increase the spacers if peaks are increasing only slowly.
+
 #14 defines in percent how much coverage a peak has to have realtive to the average coverage per nucleotide
